@@ -14,8 +14,8 @@ public class AppTest extends TestCase {
      * @param testName name of the test case
      */
     public AppTest(String testName) {
-    super(testName); // missing semicolon linting error 
-};
+    super(testName);
+}
 
     /**
      * @return the suite of tests being tested
@@ -28,8 +28,8 @@ public class AppTest extends TestCase {
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
+    public void testApp() {
+        int x = 1; // create linting error by adding unused variable 
         assertTrue( true );
     }
 }
