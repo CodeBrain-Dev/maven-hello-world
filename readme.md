@@ -8,7 +8,7 @@ Now, to print "Hello World!", type either...
 
     cd my-app
     mvn compile
-    java -cp target/classes com.mycompany.app.App
+    java -classpath target/classes com.mycompany.app.App
 
 or...
 
@@ -33,8 +33,8 @@ Running `mvn compile` produces a class file:
     src/test/java/com/mycompany/app/AppTest.java
     target/classes/com/mycompany/app/App.class
     murphy:my-app pdurbin$ 
-    murphy:my-app pdurbin$ java -cp target/classes com.mycompany.app.App
-    Hello World! Welcome to the Maven Hello World example!
+    murphy:my-app pdurbin$ java -classpath target/classes com.mycompany.app.App
+    Hello World!
 
 Running `mvn package` does a compile and creates the target directory, including a jar:
 
