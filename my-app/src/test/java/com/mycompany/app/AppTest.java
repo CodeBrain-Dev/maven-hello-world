@@ -7,21 +7,23 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest  extends TestCase {
+public class AppTest extends TestCase {
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
 
-   /**  Create the test case.  */  											   // Added a comment to describe what this code block does. 
-
-   public AppTest(String testName) {                                         // Changed indentation for consistency with rest of file. 
-
-      super(testName);                                                       // Changed indentation for consistency with rest of file. 
-
-   }
-
-   /** Return the suite of tests being tested. */                             // Added a comment to describe what this code block does. 
-
-   public static Test suite() {                                              // Changed indentation for consistency with rest of file. 
-
-      return new TestSuite(AppTest.class);                                    // Changed indentation for consistency with rest of file.
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
     }
 
     /**
