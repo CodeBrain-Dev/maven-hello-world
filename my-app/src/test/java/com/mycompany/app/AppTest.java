@@ -14,7 +14,7 @@ public class AppTest extends TestCase {
      * @param testName name of the test case
      */
     public AppTest(String testName) {
-    super(testName); // missing semicolon linting error 
+    super(testName); // linting error - missing semicolon at the end of the line. 
 };
 
     /**
