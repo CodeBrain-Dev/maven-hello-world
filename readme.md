@@ -8,7 +8,7 @@ Now, to print "Hello World!", type either...
 
     cd my-app
     mvn compile
-    java -classpath target/classes com.mycompany.app.App
+    java -cp target/classes com.mycompany.app.App
 
 or...
 
@@ -27,13 +27,13 @@ Running `mvn clean` will get us back to only the source Java and the `pom.xml`:
 Running `mvn compile` produces a class file:
 
     murphy:my-app pdurbin$ mvn compile --quiet
-    murphy:my-app pdurbin$ ack -a -f
+    murphy:my-app pdurbin$ find . -type f
     pom.xml
     src/main/java/com/mycompany/app/App.java
     src/test/java/com/mycompany/app/AppTest.java
     target/classes/com/mycompany/app/App.class
     murphy:my-app pdurbin$ 
-    murphy:my-app pdurbin$ java -classpath target/classes com.mycompany.app.App
+    murphy:my-app pdurbin$ java -cp target/classes com.mycompany.app.App
     Hello World!
 
 Running `mvn package` does a compile and creates the target directory, including a jar:
