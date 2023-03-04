@@ -7,22 +7,20 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest extends TestCase {
+public class AppTest  extends TestCase {
 
-    /** 
-     * Constructor for AppTest. Creates a new instance of the AppTest class. 
-     * @param testName The name of the test to be run. 
-     */ 
+    /**  Create the test case.   */ 
 
-    public AppTest(String testName) { 
+    public AppTest(String testName) {  super(testName);   }
 
-        super(testName); 
+    /** Return the suite of tests being tested. */ 
 
-    }
+    public static Test suite() { return new TestSuite(AppTest.class); }
 
-    /**
-     * @return the suite of tests being tested
-     */
+    /** Rigourous Test :-) */ 
+
+    public void testApp() { assertTrue(true); }  
+}
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
