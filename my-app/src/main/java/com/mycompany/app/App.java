@@ -8,16 +8,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "🌎 Hello World! 🌍" );
 
         System.out.println("A NullPointerException can be a real pain...");
         Object myObject = null;
         /**
          * Checker prevents this from compiling...
          */
-if (myObject != null) {
-    System.out.println("myObject: " + myObject.toString());
-}
+//        System.out.println("myObject: " + myObject.toString());
         /**
          * ... which is simply fantastic. It shows:
          *
