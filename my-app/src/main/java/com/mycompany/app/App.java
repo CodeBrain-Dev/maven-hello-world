@@ -8,9 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println("Welcome to the Maven Hello World application!");
 
-        System.out.println("A NullPointerException can be a drag...");
+        System.out.println("A NullPointerException is a drag...");
         Object myObject = null;
         /**
          * Checker prevents this from compiling...
