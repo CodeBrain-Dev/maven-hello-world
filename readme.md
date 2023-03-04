@@ -30,10 +30,11 @@ Running `mvn compile` produces a class file:
     murphy:my-app pdurbin$ ack -a -f
     pom.xml
     src/main/java/com/mycompany/app/App.java
-    src/test
+    src/test/java/com/mycompany/app/AppTest.java
+    target/classes/com/mycompany/app/App.class
     murphy:my-app pdurbin$ 
     murphy:my-app pdurbin$ java -cp target/classes com.mycompany.app.App
-    Hello World!
+    Hello World! from Maven
 
 Running `mvn package` does a compile and creates the target directory, including a jar:
 
