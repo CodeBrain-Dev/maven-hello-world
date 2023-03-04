@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test class for the App class. Tests the functionality of the App class. 
+ * Unit test for the simple App class. This class tests the functionality of the App class. 
  */
 public class AppTest 
     extends TestCase
