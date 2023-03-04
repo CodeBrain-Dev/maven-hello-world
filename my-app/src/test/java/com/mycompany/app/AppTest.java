@@ -9,13 +9,19 @@ import junit.framework.TestSuite;
  */
 public class AppTest  extends TestCase {
 
-   /**  Create the test case  */  												   // Added comment to explain purpose of this method. 
+    /**  Create the test case.  */  											   // Added comment for clarity. 
 
-   public AppTest(String testName) {      super(testName);   }                       // Removed unnecessary line break.
+    /**  @param testName name of the test case. */  				               // Added comment for clarity. 
 
-   /** @return the suite of tests being tested */                                     // Added comment to explain purpose of this method. 
+    public AppTest( String testName ) { super(testName); }
 
-   public static Test suite() { return new TestSuite(AppTest.class); }                // Removed unnecessary line break.
+    /**  @return the suite of tests being tested. */  	                         // Added comment for clarity. 
+
+    public static Test suite() { return new TestSuite(AppTest.class); }
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
 
     /**
      * Rigourous Test :-)
