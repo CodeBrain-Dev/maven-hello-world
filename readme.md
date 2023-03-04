@@ -2,7 +2,11 @@
 
 To create the files in this git repo we've already run `mvn archetype:generate` from http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
-    mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+    mvn archetype:generate \
+        -DgroupId=com.mycompany.app \
+        -DartifactId=my-app \
+        -DarchetypeArtifactId=maven-archetype-quickstart \
+        -DinteractiveMode=false
 
 Now, to print "Hello World!", type either...
 
@@ -30,7 +34,8 @@ Running `mvn compile` produces a class file:
     murphy:my-app pdurbin$ ack -a -f
     pom.xml
     src/main/java/com/mycompany/app/App.java
-    src/test/java
+    src/test/java/com/mycompany/app/AppTest.java
+    target/classes/com/mycompany/app/App.class
     murphy:my-app pdurbin$ 
     murphy:my-app pdurbin$ java -cp target/classes com.mycompany.app.App
     Hello World!
