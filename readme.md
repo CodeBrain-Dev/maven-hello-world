@@ -14,7 +14,7 @@ or...
 
     cd my-app
     mvn package
-    java -jar target/my-app-1.0-SNAPSHOT.jar
+    java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 
 Running `mvn clean` will get us back to only the source Java and the `pom.xml`:
 
