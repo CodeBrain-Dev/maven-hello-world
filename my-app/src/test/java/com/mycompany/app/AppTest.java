@@ -9,18 +9,19 @@ import junit.framework.TestSuite;
  */
 public class AppTest  extends TestCase {
 
-    /**  Create the test case.  */  											   // Added comment for clarity. 
+   /**  Create the test case.  */  											   // Added a comment to describe what this code block does. 
 
-    /**  @param testName name of the test case. */  				               // Added comment for clarity. 
+   public AppTest(String testName) {                                         // Changed indentation for consistency with rest of file. 
 
-    public AppTest( String testName ) { super(testName); }
+      super(testName);                                                       // Changed indentation for consistency with rest of file. 
 
-    /**  @return the suite of tests being tested. */  	                         // Added comment for clarity. 
+   }
 
-    public static Test suite() { return new TestSuite(AppTest.class); }
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+   /** Return the suite of tests being tested. */                             // Added a comment to describe what this code block does. 
+
+   public static Test suite() {                                              // Changed indentation for consistency with rest of file. 
+
+      return new TestSuite(AppTest.class);                                    // Changed indentation for consistency with rest of file.
     }
 
     /**
