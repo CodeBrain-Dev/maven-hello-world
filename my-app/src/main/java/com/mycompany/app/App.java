@@ -10,12 +10,12 @@ public class App
     {
         System.out.println( "Hello World!" );
 
-        System.out.println("A NullPointerException is a drag...");
+        System.out.println("A NullPointerException can be a real drag...");
         Object myObject = null;
         /**
          * Checker prevents this from compiling...
          */
-//        // System.out.println("myObject: " + myObject.toString());
+//        System.out.println("myObject: " + myObject.toString());
         /**
          * ... which is simply fantastic. It shows:
          *
