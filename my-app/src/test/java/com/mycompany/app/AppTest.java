@@ -10,8 +10,8 @@ import junit.framework.TestSuite;
 public class AppTest extends TestCase {
 
     /** 
-     * Create the test case. 
-     * @param testName Name of the test case. 
+     * Constructor for AppTest. Creates a new instance of the AppTest class. 
+     * @param testName The name of the test to be run. 
      */ 
 
     public AppTest(String testName) { 
