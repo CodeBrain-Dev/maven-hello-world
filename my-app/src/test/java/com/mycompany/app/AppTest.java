@@ -11,16 +11,15 @@ public class AppTest  extends TestCase {
 
     /**  Create the test case.   */ 
 
-    public AppTest(String testName) {  super(testName);   }
+    public AppTest(String testName) {  super(testName); }
 
-    /** Return the suite of tests being tested. */ 
+    /** Return the suite of tests being tested. */  
 
     public static Test suite() { return new TestSuite(AppTest.class); }
 
-    /** Rigourous Test :-) */ 
+    /** Rigourous Test :-) */  
 
-    public void testApp() { assertTrue(true); }  
-}
+    public void testApp() { assertTrue(true); }  }
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
