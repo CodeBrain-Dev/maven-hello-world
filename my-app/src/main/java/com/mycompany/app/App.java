@@ -15,7 +15,7 @@ public class App
         /**
          * Checker prevents this from compiling...
          */
-//        if (myObject != null) {
+if (myObject != null) {
     System.out.println("myObject: " + myObject.toString());
 }
         /**
