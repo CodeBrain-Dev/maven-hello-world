@@ -7,17 +7,16 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest extends TestCase {
-
-    /** 
-     * Constructor for the AppTest class.  This constructor takes in a string parameter, which is used as the name of the test case.  
-     * @param testName The name of the test case.  This will be used to identify which tests are being run. 
-     */ 
-
-    public AppTest(String testName) { 
-
-        super(testName); 
-
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest(String testName) {
+        super(testName);
     }
 
     /**
