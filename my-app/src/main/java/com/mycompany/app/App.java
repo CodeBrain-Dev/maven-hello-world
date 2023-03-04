@@ -8,14 +8,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println("Welcome to the Maven Hello World project!");
 
         System.out.println("A NullPointerException is a drag...");
         Object myObject = null;
         /**
          * Checker prevents this from compiling...
          */
-//        // System.out.println("myObject: " + myObject.toString());
+//        System.out.println("myObject: " + myObject.toString());
         /**
          * ... which is simply fantastic. It shows:
          *
